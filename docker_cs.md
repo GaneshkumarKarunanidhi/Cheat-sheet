@@ -46,5 +46,3 @@ Containers isolate software from its environment and ensure that it works unifor
 |docker system prune -a | Remove unused container(it's not running),images and volumes |
 
 
-
-A container is a runtime instance of a docker image. A container will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
