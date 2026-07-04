@@ -39,9 +39,9 @@ Containers isolate software from its environment and ensure that it works unifor
 |docker inspect| Inspect docker container it contains config,env variables,Mounts path, Image details, Run Commands,Created details and etc  |
 |docker exec -it <container_name> bash | Open a linux/bash file system inside a running container |
 |docker cp <container_name>:<file_path> . | Copy files from container |
-|docker logs <container_name> or <container-id> | View container application logs |
-|docker logs -f <container_name> or <container-id> | View live logs of the container |
-|docker logs -f  --tail number <container_name> or <container-id> | Get last logs based on mentioned number and View live logs of the container |
+|docker logs <container_name> or <container_id> | View container application logs |
+|docker logs -f <container_name> or <container_id> | View live logs of the container |
+|docker logs -f  --tail number <container_name> or <container_id> | Get last logs based on mentioned number and View live logs of the container |
 |docker logs <container_name> > outLog.txt; | Export logs from container |
 |**DELETE** 🗑️|
 |docker rm <container_name> | Delete/Remove an container |
