@@ -17,8 +17,8 @@ Containers isolate software from its environment and ensure that it works unifor
 | Commands | Description |
 | -------- | -------- | 
 | **VIEW** 👀 |
-|docker ps | Lists all running contains |
-|docker ps -a | Lists all contains include stopped |
+|docker ps | List all running contains |
+|docker ps -a | List all contains include stopped |
 |docker images| List all local images| 
 |docker volumes | List all volumes |
 | **INFORMATION** 📝 |
